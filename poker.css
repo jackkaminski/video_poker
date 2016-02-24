@@ -1,0 +1,88 @@
+/*  Jack Kaminski
+    02/17/16
+    cisw 400
+    Video Poker*/
+
+body {
+    background-color: green;
+    color: white;
+    font-family: ;
+}
+
+img {
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: auto; 
+}
+
+.held_card {
+    border: 5px solid yellow;
+}
+
+.release_card {
+    border: 0px solid white;
+}
+
+
+#container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 0px white solid;
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+
+
+
+#status_message{
+    width: 400px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+
+/*Center new game text*/
+article p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+
+button {
+    margin: auto;
+    width: 100px;
+    display: block;
+}
+
+/*Make header visible*/
+.visible {
+    display: block;
+}
+
+/*Hide header*/
+.hidden {
+    display: none;
+}
+
+

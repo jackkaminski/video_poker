@@ -1,0 +1,56 @@
+<!doctype html>
+<!--Jack Kaminski
+    02/17/16
+    cisw 400
+    Video Poker
+    test-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Video Poker</title>
+    <link rel="stylesheet" href="poker.css">
+    <script src="poker.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+    <h1 id="header_welcome">Video Poker!</h1>
+    <h2>Credits: <span id="credit"></span></h2>
+<!--    <h1 id="header_win" class="header_hidden">You sank the Battleship!</h1>
+    <h1 id="header_lose" class="header_hidden">You missed the Battleship!</h1>-->
+    </header>
+    <main>   
+        <section>
+            <table>
+                <tr>
+                    <td id="td_square_0"><img id="card_0" src="images/cards/b.gif" alt="Playing Card #1" data-held_card="false" data-card_rank_num="0"></td>
+                    
+                    <td id="td_square_1"><img id="card_1" src="images/cards/b.gif" alt="Playing Card #2" data-held_card="false" data-card_rank_num="0"></td>
+                    
+                    <td id="td_square_2"><img id="card_2" src="images/cards/b.gif" alt="Playing Card #3" data-held_card="false" data-card_rank_num="0"></td>
+                    
+                    <td id="td_square_3"><img id="card_3" src="images/cards/b.gif" alt="Playing Card #4" data-held_card="false" data-card_rank_num="0"></td>
+                    
+                    <td id="td_square_4"><img id="card_4" src="images/cards/b.gif" alt="Playing Card #5" data-held_card="false" data-card_rank_num="0"></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <article id="status_message">
+                <ol id="round_one_message" data-round="">
+                    <li>Press &#39;Deal&#39; to deal a set of cards</li>
+                    <li>Player may hold cards by clicking on them</li>
+                    <li>Press &#39;Deal&#39; to draw new cards that have not been held</li>
+                </ol>
+                <p id="round_two_message" class="hidden" data-round="">Press &#39;Deal&#39; to deal a new hand</p>
+                <p id="no_credit" class="hidden" data-round="">Player no longer has enough credit to continue</p>
+            </article>       
+            <article>
+                <button type="button" id="deal">Deal</button>
+            </article>
+        </section>
+    </main> 
+</div>
+</body>
+</html>
